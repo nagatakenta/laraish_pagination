@@ -20,8 +20,8 @@
     ],
     "require": {
         "php": "8.1.9",
-        "sevrn-ario/laraish_contracts": "master",
-        "sevrn-ario/laraish_support": "master",
+        "laraish/contracts": "^1.0",
+        "laraish/support": "^1.0",
         "illuminate/contracts": "10.x-dev"
     },
     "autoload": {
