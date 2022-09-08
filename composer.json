@@ -1,5 +1,5 @@
 {
-    "name": "laraish/pagination",
+    "name": "seven-ario/laraish_pagination",
     "description": "A simple library for generating pagination.",
     "keywords": [
         "framework",
@@ -20,8 +20,8 @@
     ],
     "require": {
         "php": "8.1.9",
-        "laraish/contracts": "^1.0",
-        "laraish/support": "^1.0",
+        "seven-ario/laraish_contracts": "^1.0",
+        "seven-ario/laraish_support": "^1.0",
         "illuminate/contracts": "10.x-dev"
     },
     "autoload": {
