@@ -1,7 +1,5 @@
 <div class="pagination">
-    <?php
-// Previous Page Link
-?>
+    <?php // Previous Page Link ?>
     <div class="pagination__prev-button<?php echo $paginator->onFirstPage() ? ' disabled' : ''; ?>">
         <?php if ($paginator->onFirstPage()): ?>
             <span><?php echo $paginator->prevPageText(); ?></span>
@@ -11,13 +9,9 @@
     </div>
 
     <ul class="pagination__page-links">
-        <?php
-// Pagination Parts
-?>
+        <?php // Pagination Parts ?>
         <?php foreach ($paginationParts as $part): ?>
-            <?php
-            // "Three Dots" Separator
-            ?>
+            <?php // "Three Dots" Separator ?>
             <?php if (is_string($part)): ?>
                 <li class="disabled"><span><?php echo $part; ?></span></li>
             <?php else: ?>
@@ -32,9 +26,7 @@
         <?php endforeach; ?>
     </ul>
 
-    <?php
-// Next Page Link
-?>
+    <?php // Next Page Link ?>
     <div class="pagination__next-button<?php echo $paginator->hasMorePages() ? '' : ' disabled'; ?>">
         <?php if ($paginator->hasMorePages()): ?>
             <a href="<?php echo $paginator->nextPageUrl(); ?>"><span><?php echo $paginator->nextPageText(); ?></span></a>
